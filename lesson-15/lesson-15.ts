@@ -4,13 +4,13 @@
 
 // We're going to use a conditional type to implement a NonNullish<T> helper type. This type is identical to the NonNullable<T> helper type which is defined in the core type declaration files that ship with the TypeScript compiler. Step by step, we're going to resolve an application of the NonNullish<T> type to understand how conditional types are being evaluated.
 
-type NonNullish<T> = T extends null | undefined ? never : T;
+// type NonNullish<T> = T extends null | undefined ? never : T;
 
-type A = NonNullish<string>;
-type B = NonNullish<string | null>;
-type C = NonNullish<string | null | undefined>;
-type D = NonNullish<null>;
-type E = NonNullish<undefined>;
+// type A = NonNullish<string>;
+// type B = NonNullish<string | null>;
+// type C = NonNullish<string | null | undefined>;
+// type D = NonNullish<null>;
+// type E = NonNullish<undefined>;
 
 // =============================================================================
 
