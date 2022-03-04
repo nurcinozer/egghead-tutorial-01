@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "target": "es2015"
+  }
+}
